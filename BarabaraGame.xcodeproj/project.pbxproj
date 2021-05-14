@@ -13,6 +13,10 @@
 		D42658D2264E4E19007AA8A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D42658D0264E4E19007AA8A2 /* Main.storyboard */; };
 		D42658D4264E4E19007AA8A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D42658D3264E4E19007AA8A2 /* Assets.xcassets */; };
 		D42658D7264E4E19007AA8A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D42658D5264E4E19007AA8A2 /* LaunchScreen.storyboard */; };
+		D42658E1264E50DA007AA8A2 /* tail.png in Resources */ = {isa = PBXBuildFile; fileRef = D42658DF264E50DA007AA8A2 /* tail.png */; };
+		D42658E2264E50DA007AA8A2 /* bar.png in Resources */ = {isa = PBXBuildFile; fileRef = D42658E0264E50DA007AA8A2 /* bar.png */; };
+		D42658E4264E5CF4007AA8A2 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42658E3264E5CF4007AA8A2 /* GameViewController.swift */; };
+		D42658E6264E5D02007AA8A2 /* RankingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42658E5264E5D02007AA8A2 /* RankingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		D42658D3264E4E19007AA8A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D42658D6264E4E19007AA8A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D42658D8264E4E19007AA8A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D42658DF264E50DA007AA8A2 /* tail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tail.png; sourceTree = "<group>"; };
+		D42658E0264E50DA007AA8A2 /* bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar.png; sourceTree = "<group>"; };
+		D42658E3264E5CF4007AA8A2 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		D42658E5264E5D02007AA8A2 /* RankingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +68,23 @@
 				D42658CC264E4E19007AA8A2 /* SceneDelegate.swift */,
 				D42658CE264E4E19007AA8A2 /* ViewController.swift */,
 				D42658D0264E4E19007AA8A2 /* Main.storyboard */,
+				D42658DE264E50DA007AA8A2 /* Barabara素材 */,
 				D42658D3264E4E19007AA8A2 /* Assets.xcassets */,
 				D42658D5264E4E19007AA8A2 /* LaunchScreen.storyboard */,
 				D42658D8264E4E19007AA8A2 /* Info.plist */,
+				D42658E3264E5CF4007AA8A2 /* GameViewController.swift */,
+				D42658E5264E5D02007AA8A2 /* RankingViewController.swift */,
 			);
 			path = BarabaraGame;
+			sourceTree = "<group>";
+		};
+		D42658DE264E50DA007AA8A2 /* Barabara素材 */ = {
+			isa = PBXGroup;
+			children = (
+				D42658DF264E50DA007AA8A2 /* tail.png */,
+				D42658E0264E50DA007AA8A2 /* bar.png */,
+			);
+			path = "Barabara素材";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D42658D7264E4E19007AA8A2 /* LaunchScreen.storyboard in Resources */,
+				D42658E2264E50DA007AA8A2 /* bar.png in Resources */,
+				D42658E1264E50DA007AA8A2 /* tail.png in Resources */,
 				D42658D4264E4E19007AA8A2 /* Assets.xcassets in Resources */,
 				D42658D2264E4E19007AA8A2 /* Main.storyboard in Resources */,
 			);
@@ -137,6 +159,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D42658E6264E5D02007AA8A2 /* RankingViewController.swift in Sources */,
+				D42658E4264E5CF4007AA8A2 /* GameViewController.swift in Sources */,
 				D42658CF264E4E19007AA8A2 /* ViewController.swift in Sources */,
 				D42658CB264E4E19007AA8A2 /* AppDelegate.swift in Sources */,
 				D42658CD264E4E19007AA8A2 /* SceneDelegate.swift in Sources */,
